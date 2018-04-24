@@ -2,15 +2,15 @@
   class Db {
     private static $instance = null;
     private $connection = null;
-    // private $hostname = "sql2.njit.edu";
-    // private $dbname = "vs566" ;
-    // private $username = "vs566" ;
-    // private $dbpass = "a6EbTRH7" ;
-
-    private $hostname = "localhost";
-    private $dbname = "php_mvc" ;
-    private $username = "jsoto" ;
-    private $dbpass = "luqovRwipL6fimh2" ;
+    private $hostname = "sql2.njit.edu";
+    private $dbname = "vs566" ;
+    private $username = "vs566" ;
+    private $dbpass = "a6EbTRH7" ;
+    // 
+    // private $hostname = "localhost";
+    // private $dbname = "php_mvc" ;
+    // private $username = "jsoto" ;
+    // private $dbpass = "luqovRwipL6fimh2" ;
 
     public static function getInstance()
     {
